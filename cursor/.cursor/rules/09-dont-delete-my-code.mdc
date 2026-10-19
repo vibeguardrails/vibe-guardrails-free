@@ -1,0 +1,18 @@
+---
+description: Change only what was asked; never remove working code, features or files silently.
+globs: **/*
+alwaysApply: true
+---
+# Scope Guard: Don't Delete My Code
+
+## Rules
+- Only modify files and lines needed for the current request. If another change seems necessary, list it and ask before doing it.
+- Never delete or rewrite existing functions, components, routes, tests or comments that are unrelated to the task. Never replace code with placeholders like `// ... existing code ...` or `// rest unchanged` in the actual file.
+- Never remove a feature to "fix" an error. Fix the cause.
+- Do not rename files, change folder structure, swap libraries or upgrade major versions unless asked.
+- Do not delete tests to make them pass, and do not loosen types (`any`, `@ts-ignore`, `# type: ignore`) to silence errors without saying so.
+- Before a change touching more than ~3 files or ~150 lines, state the plan in one short list and wait for approval.
+- After editing, summarize exactly which files changed and why.
+
+## Check before you finish
+- [ ] `git diff --stat` only shows files related to the request.
