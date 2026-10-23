@@ -29,7 +29,7 @@ Each rule ships in four formats: Cursor (`.mdc`), Claude Code, AGENTS.md, and a 
 This repository is a free sample of three rules, licensed under the MIT License. The rest of Vibe Guardrails is sold separately:
 
 - [vibeguardrails.com](https://vibeguardrails.com)
-- [Ship-Safe Pack](https://williambastian.gumroad.com/l/kwljs) — $19
-- [Pro Kit](https://williambastian.gumroad.com/l/wjagfl) — $39
+- [Ship-Safe Pack](https://vibeguardrails.gumroad.com/l/kwljs) — $19
+- [Pro Kit](https://vibeguardrails.gumroad.com/l/wjagfl) — $39
 
 Not affiliated with Cursor, Anthropic, Lovable, StackBlitz, Replit, Vercel or Supabase.
